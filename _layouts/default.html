@@ -1,29 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}" class="has-navbar-fixed-top">
+<html lang="{{ site.lang | default: "en-US" }}">
 {% include head.html %}
 <body>
-  {% include header.html %}
+  <!-- {% include header.html %} -->
   {{ content}}
   {% include footer.html %}
-  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-  <script>
-    const options = {
-      bottom: '64px', // default: '32px'
-      right: '32px', // default: '32px'
-      left: 'unset', // default: 'unset'
-      time: '0.5s', // default: '0.3s'
-      mixColor: '#d0d0d0', // default: '#fff'
-      backgroundColor: '#d6d6d6',  // default: '#fff'
-      buttonColorDark: '#282a2c',  // default: '#100f2c'
-      buttonColorLight: '#fff', // default: '#fff'
-      saveInCookies: false, // default: true,
-      label: '🌓', // default: ''
-      autoMatchOsTheme: true // default: true
-    }
-
-    const darkmode = new Darkmode(options);
-    darkmode.showWidget();
-  </script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
 

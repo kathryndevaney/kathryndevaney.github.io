@@ -2790,6 +2790,8 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
   .section.is-large { padding: 18rem 1.5rem; } }
 .section.is-offset-margin-top { margin-top: -5rem; }
 
+.subsection { margin-top: 30px; }
+
 .footer { background-color: #63b3ed; padding: 3rem 1.5rem 6rem; }
 
 .footer-icon { width: 75px; }
