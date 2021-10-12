@@ -1617,6 +1617,11 @@ a.tag:hover { text-decoration: underline; }
 .card-footer-item:not(:last-child) { border-right: 1px solid #ededed; }
 
 .card .media:not(:last-child) { margin-bottom: 1.5rem; }
+.card.is-horizontal { flex-direction: row; display: flex; flex-basis: 50ex; flex-grow: 0; flex-shrink: 1; }
+.card.is-horizontal .card-image { flex: 2; flex-shrink: 2; }
+.card.is-horizontal .card-image .image { display: block; position: relative; overflow: hidden; height: 100%; width: 100%; }
+.card.is-horizontal .card-image .image img { height: 100%; object-fit: cover; object-position: center; }
+.card.is-horizontal .card-content { flex: 3; flex-shrink: 3; }
 
 .dropdown { display: inline-flex; position: relative; vertical-align: top; }
 .dropdown.is-active .dropdown-menu, .dropdown.is-hoverable:hover .dropdown-menu { display: block; }
@@ -2785,6 +2790,8 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 @keyframes move-forever { 0% { transform: translate3d(-90px, 0, 0); }
   100% { transform: translate3d(85px, 0, 0); } }
+.home { background-image: url("/assets/images/hero.jpg"); }
+
 .section { padding: 3rem 1.5rem; }
 @media screen and (min-width: 1024px) { .section.is-medium { padding: 9rem 1.5rem; }
   .section.is-large { padding: 18rem 1.5rem; } }
@@ -2792,7 +2799,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .subsection { margin-top: 30px; }
 
-.footer { background-color: #63b3ed; padding: 3rem 1.5rem 6rem; }
+.footer { background-color: #76b3fe; padding: 3rem 1.5rem 6rem; }
 
 .footer-icon { width: 75px; }
 
