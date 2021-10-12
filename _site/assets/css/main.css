@@ -2799,7 +2799,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .subsection { margin-top: 30px; }
 
-.footer { background-color: #76b3fe; padding: 3rem 1.5rem 6rem; }
+.footer { background-color: #fff; padding: 3rem 1.5rem 6rem; }
 
 .footer-icon { width: 75px; }
 
