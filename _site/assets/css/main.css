@@ -527,6 +527,8 @@ a.has-text-danger:hover, a.has-text-danger:focus { color: #ee1742 !important; }
 
 .has-background-white-bis { background-color: #fafafa !important; }
 
+.has-background-dark-gradient { background: #0F2027; /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
 .has-text-weight-light { font-weight: 300 !important; }
 
 .has-text-weight-normal { font-weight: 400 !important; }
@@ -2791,7 +2793,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 @keyframes move-forever { 0% { transform: translate3d(-90px, 0, 0); }
   100% { transform: translate3d(85px, 0, 0); } }
-.home { background-image: url("/assets/images/hero.jpg"); }
+.home { background-image: url("/assets/images/asbtract-white.jpg"); }
 
 .section { padding: 3rem 1.5rem; }
 @media screen and (min-width: 1024px) { .section.is-medium { padding: 9rem 1.5rem; }
@@ -2800,7 +2802,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .subsection { margin-top: 30px; }
 
-.footer { background-color: #fff; padding: 3rem 1.5rem 6rem; }
+.footer { background-color: #fafafa; padding: 3rem 1.5rem 6rem; }
 
 .footer-icon { width: 75px; }
 
