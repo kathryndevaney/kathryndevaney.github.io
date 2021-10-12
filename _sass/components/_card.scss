@@ -93,6 +93,9 @@ $card-media-margin: $block-spacing !default;
 
 &.is-horizontal {
   flex-direction: row;
+  @media(max-width: 767px) {
+    flex-direction: column;
+  }
   display: flex;
   flex-basis: 50ex;
   flex-grow: 0;
